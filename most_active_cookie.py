@@ -49,7 +49,7 @@ def most_active_cookie(selected_date):
 
 
 def main():
-    args = sys.argv[1:][2]
+    args = sys.argv[1:][2] # An example command input would be "most_active_cookie.py cookie_log.csv -d 2018-12-08".
     most_active_cookie(args)
 
 
